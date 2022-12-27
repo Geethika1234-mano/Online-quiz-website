@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="/css/semantic.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <section>
+            <div class="ui inverted segment"> 
+                <div class="ui inverted form">
+                    <div class="two fields">
+                        <form class="ui form" action="/login" method="POST">
+    
+                            <div class="field user-icon" id=""><i class="user circle outline huge icon"></i></div>
+                            <div class="field user-icon"><h2>Login</h2></div>
+                            <br>
+    
+                            <div class="required field">
+                            <label>Username</label>
+                            <input type="text" placeholder="username" name="uname" id="uname">
+                            </div>
+                            <br>
+                            <div class="required field">
+                                <label>Password</label>
+                                <input type="password" placeholder="password" name="pswd" id="pswd">
+                            </div>
+                        <br>
+                             <input class="ui submit button" type="submit" value="Login">
+                            
+                        <br><br>
+                            <div class="field">
+                               Don't you have an account? <a href="/signup">Create Here</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div> 
+        </section>
+    </div>
+   
+    <script src="/js/semantic.min.js"></script>
+</body>
+</html>
